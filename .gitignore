@@ -72,3 +72,4 @@ aclocal.m4
 .deps
 /*.exe
 *.dSYM/
+/.cache
