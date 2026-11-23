@@ -126,9 +126,9 @@ repos:
           - -DLOG_SYSLOG
           - -DLOG_USER
           - -DLOG_UUCP
-          - -DSUPPORT_ACLS
+          # - -DSUPPORT_ACLS  # Do not enable, results in cppcheck error
           - -DSUPPORT_ACL_FD
-          - -DSUPPORT_CRTIMES
+          # - -DSUPPORT_CRTIMES  # Do not enable, results in cppcheck error
           - -DSUPPORT_HARD_LINKS
           - -DSUPPORT_IDN
           - -DSUPPORT_IO_PRIORITY
@@ -136,7 +136,7 @@ repos:
           - -DSUPPORT_LZ4
           - -DSUPPORT_NICE_PRIORITY
           - -DSUPPORT_PREALLOCATION
-          - -DSUPPORT_XATTRS
+          # - -DSUPPORT_XATTRS  # Do not enable, results in cppcheck error
           - -DSUPPORT_XXH3
           - -DSUPPORT_XXHASH
           - -DSUPPORT_ZSTD
